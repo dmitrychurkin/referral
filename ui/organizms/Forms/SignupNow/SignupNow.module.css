@@ -1,0 +1,15 @@
+.root {
+    margin: auto;
+    max-width: 18.75rem;
+}
+
+.input {
+    background-color: var(--color-subtle-white);
+}
+
+.actionSlot {
+    border: none;
+    display: block;
+    padding: 0;
+    margin-top: .75rem;
+}

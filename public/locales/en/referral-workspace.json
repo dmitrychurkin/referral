@@ -1,0 +1,22 @@
+{
+    "form": {
+        "title": "Ideal company for your referral",
+        "fields": {
+            "typeOfCompanies": {
+                "label": "Check all the types of companies your referral would work at",
+                "values": {
+                    "startup": "Startup",
+                    "mid": "Mid-size company",
+                    "large": "Large company",
+                    "agency": "Agency",
+                    "any": "Doesn't matter"
+                }
+            },
+            "companiesPreferToWork": {
+                "label": "Companies your referral would like to work at (if any)",
+                "placeholder": "List all companies, separate them with comma..."
+            }
+        },
+        "action": "Publish application"
+    }
+}

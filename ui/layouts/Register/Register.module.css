@@ -1,0 +1,10 @@
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    padding: 11px 24px;
+    background: linear-gradient(95.05deg, #78C1A2 0.71%, #90B9D7 44.26%, #61A5D5 100.26%);
+    background-image: url(../../../public/blue-green-background.png);
+    background-size: cover;
+    background-position: center;
+}

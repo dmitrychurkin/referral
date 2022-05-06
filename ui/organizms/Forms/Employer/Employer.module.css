@@ -1,0 +1,23 @@
+.root {
+    margin-top: clamp(72px, 8vw, 144px);
+}
+
+.sub {
+    margin-top: 16px;
+    font-size: 13px;
+    line-height: 18px;
+    color: hsl(var(--color-grey));
+    text-align: center;
+}
+
+.formFields {
+    margin-top: 24px;
+}
+
+.formFields:first-child {
+    margin-top: 32px;
+}
+
+.actionSlot {
+    border-top: none;
+}

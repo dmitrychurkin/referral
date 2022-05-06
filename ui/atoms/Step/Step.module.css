@@ -1,0 +1,43 @@
+.root {
+    display: grid;
+    grid-template-columns: repeat(2, min-content);
+    column-gap: .5rem;
+    color: hsl(var(--color-lighter-grey));
+    align-items: center;
+    font-weight: 600;
+    font-size: .813rem;
+    line-height: 1.125rem;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.active > div:first-child {
+    background-color: hsl(var(--color-black));
+}
+
+.active > div:last-child {
+    color: hsl(var(--color-black));
+}
+
+.completed {
+    color: hsl(var(--color-dark-grey));
+}
+
+.completed > div:last-child {
+    text-decoration: line-through;
+}
+
+.index {
+    display: grid;
+    place-content: center;
+    color: hsl(var(--color-bright-white));
+    background-color: hsl(var(--color-lighter-grey));
+    border-radius: .688rem;
+    width: 1rem;
+    height: 1.375rem;
+    text-align: center;
+}
+
+.content {
+    white-space: nowrap;
+}

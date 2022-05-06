@@ -1,0 +1,86 @@
+.root {
+    display: grid;
+    grid-gap: 8px;
+}
+
+.label, .placeholder {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    color: hsl(var(--color-dark-grey));
+    width: max-content;
+}
+
+.input, .textarea, .textareaClassic {
+    border: 1px solid hsl(var(--color-lighter-grey));
+    border-radius: var(--border-radius-small);
+    background-color: hsl(var(--color-subtle-white));
+    padding: 11px 16px;
+    color: hsl(var(--color-dark-grey));
+}
+
+.input:focus {
+  background-color: hsl(var(--color-bright-white));
+}
+
+.textarea, .textareaClassic {
+    position: absolute;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    resize: none;
+    font-family: var(--primary-font);
+}
+
+.textarea input {
+    display: none;
+}
+
+.textareaClassic {
+    position: initial;
+    min-height: 12.813rem;
+}
+
+.input, .textareaWrapper {
+    /* margin-top: .5rem; */
+}
+
+.input {
+  font-family: var(--primary-font);
+  color: hsl(var(--color-black));
+}
+
+.textareaWrapper {
+    position: relative;
+}
+
+.placeholder {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: .75rem 4.063rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    transition: opacity .3s;
+}
+
+.action {
+    margin-top: 1rem;
+}
+
+.placeholderHide {
+    opacity: 0;
+    z-index: -1;
+}
+
+.helperText {
+    font-size: .75rem;
+    line-height: 0;
+}
+
+.helperTextHighlight {
+    color: red;
+}

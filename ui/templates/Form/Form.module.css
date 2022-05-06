@@ -1,0 +1,17 @@
+.title {
+    font-family: var(--header-font);
+    color: var(--color-black);
+    font-size: clamp(23px, 6vw, 32px);
+    line-height: 1.2em;
+    font-weight: 700;
+    text-align: center;
+}
+
+.action {
+    /* TODO: Dmitry to replace with css variable */
+    border-top: .063rem solid #E3E6E8;
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+}

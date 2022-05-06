@@ -1,0 +1,13 @@
+.root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: calc(100vh - 7.625rem);
+    min-height: 28.125rem;
+}
+
+.title {
+    margin-top: 2rem;
+    margin-bottom: .5rem;
+}

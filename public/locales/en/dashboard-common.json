@@ -1,0 +1,10 @@
+{
+    "header": {
+        "action": "Back to Dashboard"
+    },
+    "stepper": {
+        "info": "Referral info",
+        "job": "Fit for job",
+        "workspace": "Ideal workspace"
+    }
+}

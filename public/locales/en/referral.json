@@ -1,0 +1,51 @@
+{
+    "form": {
+        "title": "Personal and contact information",
+        "titleAdditional": "Additional information",
+        "subAdditional": "Add as much information as you can. None of this is mandatory. But the more you give us the better the odds for your referral to get a good offer.",
+        "fields": {
+            "name": {
+                "label": "How shall we call them?",
+                "placeholder": "Name"
+            },
+            "email": {
+                "label": "Email",
+                "validation": {
+                    "exists": "Referral with following email already added by you"
+                }
+            },
+            "linkedIn": {
+                "label": "LinkedIn",
+                "placeholder": "Add it if you think your referral has an impressive LinkedIn profile.",
+                "action": "Connect LinkedIn"
+            },
+            "resume": {
+                "label": "Resumé",
+                "placeholder": "If you are old-school and have a proper CV, you are welcome to attach it here.",
+                "action": "Attach CV",
+                "validation": {
+                    "fileSize": "Uploaded file should be less then {{fileSize}}Mb",
+                    "fileType": "File type should be {{fileType}}"
+                }
+            },
+            "personalWebsite": {
+                "label": "Personal website",
+                "placeholder": "Your referral has a personal website? That’s a great way to let the potential employer to look into their personality",
+                "action": "Add personal website"
+            },
+            "coddingSkills": {
+                "label": "Coding skills",
+                "placeholder": "Your referral knows how to code and keeps the track of it? Great, let the employer know about it.",
+                "action_0": "Add Github",
+                "action_1": "Add Codepen"
+            },
+            "designSkills": {
+                "label": "Design skills",
+                "placeholder": "Your referral knows a thing or two about good design? Do they post their work anywhere?",
+                "action_0": "Add Dribble",
+                "action_1": "Add Behance"
+            }
+        },
+        "action": "Next"
+    }
+}

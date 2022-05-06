@@ -1,0 +1,18 @@
+{
+    "header": {
+        "action": "Log out"
+    },
+    "firstVisit": {
+        "title": "Welcome!",
+        "content": "You’ve signed up successfully.  We need some time to check and approve your profile. In the meantime you can add your peers."
+    },
+    "empty": {
+        "title": "No referrals",
+        "content": "You have not recommended any peers just yet. Recommend someone you know is looking for a job now."
+    },
+    "pending": {
+        "title": "Waiting for approval",
+        "content": "We have registered you and checking your profile to be approved. You can add your peers while you are waiting.\nYou’ve added {{size}} referrals so far."
+    },
+    "action": "Add referral"
+}

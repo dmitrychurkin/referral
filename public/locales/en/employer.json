@@ -1,0 +1,19 @@
+{
+    "title": "Thank you!",
+    "sub": "We have sent an email to <bold>{{email}}</bold> to confirm your spot.",
+    "form": {
+        "title": "Are you an employer?",
+        "sub": "We are in the early access stage now. If you are interested, reserve your spot now and we will notify you when you get access.",
+        "fields": {
+            "name": {
+                "label": "Name",
+                "placeholder": "Enter your name"
+            },
+            "email": {
+                "label": "Email",
+                "placeholder": "Enter your email"
+            }
+        },
+        "action": "Request access to Refmate"
+    }
+}

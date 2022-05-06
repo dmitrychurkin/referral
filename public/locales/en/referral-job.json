@@ -1,0 +1,24 @@
+{
+    "form": {
+        "title": "What job fits your referral best",
+        "fields": {
+            "skillset": {
+                "label": "Describe your referral skillset in one word",
+                "placeholder": "E.g. designer, front-end engineer, full stack developer"
+            },
+            "suitableRoles": {
+                "label": "Role or roles your referral would fit the best",
+                "placeholder": "You can type several, e.g. CTO, COO and CMO"
+            },
+            "pitch": {
+                "label": "Pitch your referral",
+                "placeholder": "Describe why do you think your referral would be a good fit for a company that will hire them..."
+            },
+            "howDoYouKnow": {
+                "label": "How do you know the referral",
+                "placeholder": "Describe whether you’ve worked with the referral, how do you know about their skills, etc."
+            }
+        },
+        "action": "Next"
+    }
+}

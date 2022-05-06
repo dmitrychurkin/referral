@@ -1,0 +1,30 @@
+{
+    "form": {
+        "title": "Sign in to Referrral",
+        "fields": {
+            "email": {
+                "label": "Email",
+                "placeholder": "Enter your email",
+                "validation": {
+                    "email": "Wrong pattern for email",
+                    "required": "Email required",
+                    "max": "Email length should be less than {{max}} characters"
+                }
+            },
+            "password": {
+                "label": "Password",
+                "validation": {
+                    "required": "Password is required",
+                    "min": "Password length should be more than {{min}} characters",
+                    "max": "Password length should be less than {{max}} characters"
+                }
+            }
+        },
+        "action": "Sign in"
+    },
+    "passwordReset": "Forgot password?",
+    "register": {
+        "hint": "Don’t have an account yet?",
+        "action": "Register"
+    }
+}

@@ -1,0 +1,11 @@
+.titleAdd {
+    margin-top: 4rem;
+}
+
+.sub {
+    color: hsl(var(--color-dark-grey));
+    font-weight: 600;
+    font-size: .813rem;
+    line-height: 1.125rem;
+    margin-top: .75rem;
+}

@@ -1,0 +1,35 @@
+.root {
+    margin-top: clamp(32px, 8vw, 144px);
+}
+
+.formFields {
+    margin-top: 24px;
+}
+
+.formFields:first-child {
+    margin-top: 32px;
+}
+
+.link, .hint {
+    margin-top: .5rem;
+    color: hsl(var(--color-dark-grey));
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: .813rem;
+    line-height: 1.125rem;
+}
+
+.actionSlot {
+    border-top: none;
+    flex-direction: column;
+}
+
+.hint {
+    text-align: center;
+    text-decoration: none;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding-top: 2rem;
+    /* TODO: Dmitry to replace with css variable */
+    border-top: .063rem solid #E3E6E8;
+}

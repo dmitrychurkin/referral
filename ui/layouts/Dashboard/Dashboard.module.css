@@ -1,0 +1,16 @@
+.navbar {
+    composes: navbar from "../Register/Register.module.css";
+    background-image: linear-gradient(94.61deg, #DBDBE1 3.09%, #9594DC 96.27%);
+}
+
+.newUserNavbar {
+    background-image: linear-gradient(270deg, #82B9BB 0%, #B2CDCE 100%);
+}
+
+.wrapper {
+    max-width: 44.5rem;
+    display: grid;
+    place-content: center;
+    height: max(27.813rem, calc(100vh - 66px));
+}
+

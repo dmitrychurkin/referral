@@ -1,0 +1,15 @@
+{
+    "form": {
+        "fields": {
+            "email": {
+                "placeholder": "Enter your email here",
+                "validation": {
+                    "email": "Wrong pattern for email",
+                    "required": "Email required",
+                    "max": "Email length should be less than {{max}} characters"
+                }
+            }
+        },
+        "action": "Sign up now"
+    }
+}

@@ -1,0 +1,18 @@
+.root {
+    margin-top: 2.5rem;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.688rem;
+    text-align: initial;
+}
+
+.formFields {
+    margin-top: 24px;
+}
+
+.formFields:first-child {
+    margin-top: 32px;
+}

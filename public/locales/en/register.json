@@ -1,0 +1,28 @@
+{
+    "form": {
+        "title": "Start helping your network",
+        "fields": {
+            "name": {
+                "label": "How shall we call you?",
+                "placeholder": "Name"
+            },
+            "email": {
+                "label": "Email"
+            },
+            "password": {
+                "label": "Password"
+            },
+            "linkedIn": {
+                "label": "LinkedIn",
+                "placeholder": "Add it so we could see where you are professionally.",
+                "action": "Connect LinkedIn"
+            },
+            "twitter": {
+                "label": "Twitter",
+                "placeholder": "Show us your social personality. If you are active on Twitter we rank you higher",
+                "action": "Add Twitter"
+            }
+        },
+        "action": "Register"
+    }
+}
